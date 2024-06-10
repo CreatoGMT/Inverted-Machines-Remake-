@@ -11,18 +11,18 @@ import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.type.*;
 import mindustry.ui.dialogs.*;
-import mindustry.world.consumers.*:
+import mindustry.world.consumers.*;
 
 public class InvertedMachinesRemakeDepency extends Mod{
 
     public InvertedMachinesRemakeDepency(){
     public class ConsumeItemSeperator extends ConsumeItemFilter{
         public class Items{
-            public static Item copper, lead, graphite, titanium:
+            public static Item copper, lead, graphite, titanium;
         }}
         public class ConsumeItemDissembler extends ConsumeItemFilter{
         public class Items{
-            public static Item sand, graphite, titanium, thorium:
+            public static Item sand, graphite, titanium, thorium;
         }}
     }
 }
