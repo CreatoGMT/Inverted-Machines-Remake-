@@ -15,7 +15,6 @@ import mindustry.world.consumers.*;
 
 public class InvertedMachinesRemakeDepency extends Mod{
 
-    public InvertedMachinesRemakeDepency(){
     public class ConsumeItemSeperator extends ConsumeItemFilter{
         public class Items{
             public static Item copper, lead, graphite, titanium;
@@ -25,4 +24,3 @@ public class InvertedMachinesRemakeDepency extends Mod{
             public static Item sand, graphite, titanium, thorium;
         }}
     }
-}
